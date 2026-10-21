@@ -17,10 +17,10 @@ layouts/
 In the app: `app/src/main/res/values/strings.xml` →
 
 ```xml
-<string name="layout_repo_base_url">https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/polyglot-keyboard-layouts/main/</string>
+<string name="layout_repo_base_url">https://raw.githubusercontent.com/zaidfa/polyglot-keyboard-layouts/main/</string>
 ```
 
-Replace `YOUR_GITHUB_USERNAME` (and repo/branch if you change them). The app expects:
+The app expects:
 
 - `<base>/manifest.json`
 - `<base>/layouts/<id>.json`
